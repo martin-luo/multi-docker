@@ -29,6 +29,7 @@ services:
       - PG_DATABASE=postgres
       - PG_PASSWORD=postgres_password
       - PG_PORT=5432
+
   client:
     stdin_open: true
     build:
