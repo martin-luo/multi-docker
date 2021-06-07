@@ -4,7 +4,7 @@ metadata:
   name: redis-deployment
 spec:
   replicas: 1
-  seelector:
+  selector:
     matchLabels:
       component: redis
   template:
